@@ -1,3 +1,2 @@
 First Name      Last Name
-Artem           Hrechanychenko
 Ruslan          Lesyuk
