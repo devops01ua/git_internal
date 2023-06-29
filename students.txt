@@ -1,8 +1,10 @@
 First Name      Last Name
 Artem           Hrechanychenko
+Aleksander		  Shefer
 Denys           Vetriak
 Andriy          Rubtsov
 Mykyta          Aleksandrov
 Valeriia        Vorobiova
 Eugene          Kamenev
-Ruslan		Lesyuk
+Ruslan		      Lesyuk
+
