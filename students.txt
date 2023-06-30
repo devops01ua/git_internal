@@ -1,5 +1,6 @@
 First Name      Last Name
 Artem           Hrechanychenko
+Ihor            Kostyrenko
 Aleksander		Shefer
 Denys           Vetriak
 Andriy          Rubtsov
@@ -7,3 +8,4 @@ Mykyta          Aleksandrov
 Valeriia        Vorobiova
 Eugene          Kamenev
 Andriy          Vulook
+Ihor            Tykhonov
