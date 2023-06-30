@@ -1,3 +1,11 @@
 First Name      Last Name
 Artem           Hrechanychenko
 Yevhen		Chodchenkov
+Ihor            Kostyrenko
+Aleksander		Shefer
+Denys           Vetriak
+Andriy          Rubtsov
+Mykyta          Aleksandrov
+Valeriia        Vorobiova
+Eugene          Kamenev
+Ihor            Tykhonov
