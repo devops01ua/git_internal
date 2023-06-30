@@ -1,4 +1,5 @@
 First Name      Last Name
+Vladyslav       Stadnyk
 Artem           Hrechanychenko
 Ihor            Kostyrenko
 Aleksander		Shefer
