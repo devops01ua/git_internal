@@ -1,29 +1,40 @@
-def calculator():
-    print("Простой калькулятор")
-    print("Выберите операцию:")
-    print("1. Сложение")
-    print("2. Вычитание")
-    print("3. Умножение")
-    print("4. Деление")
+def add(x, y):
+    """Addition"""
+    return x + y
 
-    choice = input("Введите номер операции (1/2/3/4): ")
+def subtract(x, y):
+    """Subtraction"""
+    return x - y
 
-    num1 = float(input("Введите первое число: "))
-    num2 = float(input("Введите второе число: "))
+def multiply(x, y):
+    """multiplication"""
+    return x * y
 
-    result = 0
-
-    if choice == '1':
-        result = num1 + num2
-    elif choice == '2':
-        result = num1 - num2
-    elif choice == '3':
-        result = num1 * num2
-    elif choice == '4':
-        result = num1 / num2
+def divide(x, y):
+    """Division"""
+    if y != 0:
+        return x / y
     else:
-        print("Неверный ввод")
+        return "Error, divide -0-!"
 
-    print("Результат: " + str(result))
+print("Choose transaction:")
+print("1. Addition")
+print("2. Subtraction")
+print("3. multiplication")
+print("4. Division")
 
-calculator()
+choice = input("Add number operation (1/2/3/4): ")
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if choice == '1':
+    print(num1, "+", num2, "=", add(num1, num2))
+elif choice == '2':
+    print(num1, "-", num2, "=", subtract(num1, num2))
+elif choice == '3':
+    print(num1, "*", num2, "=", multiply(num1, num2))
+elif choice == '4':
+    print(num1, "/", num2, "=", divide(num1, num2))
+else:
+    print("Incorrect input transaction")
